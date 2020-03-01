@@ -1,6 +1,6 @@
-#Galaxy unit converter
+# Galaxy unit converter
 
-####Notes:
+#### Notes:
 I couldn't figure out the exact requirements with in/out-put,
 therefore I made the following assumptions to keep it simple, 
 but with more requirements we can make it less fragile
@@ -14,9 +14,9 @@ where Words doesn't contain `how`
 where Question doesn't contain `how`
 - I couldn't get the exact logic for credit, so I ignore it.
 
-####Build using maven:
+#### Build using maven:
 `mvn clean install`
 
 
-####Run using maven:
+#### Run using maven:
 `mvn exec:java -Dexec.mainClass="com.personal.test.Main"`
